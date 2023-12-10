@@ -1,5 +1,5 @@
 "use client"
-import { Btn } from '../../componentes/botonPruebaNavegacion/Button';
+import { Boton } from '../../componentes/botonPruebaNavegacion/Boton';
 import { Buscador } from '../../componentes/buscador/Buscador';
 import { Card } from '../../componentes/card/Card';
 import { Carrousel } from '../../componentes/carrousel/Carrousel'
@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       {/* Next Page */}
-      <Btn url={"../rubros"} nextPage="Rubros" />
+      <Boton url={"../rubros"} nextPage="Rubros"/>
       <Buscador />
       <Card />
       <Carrousel />

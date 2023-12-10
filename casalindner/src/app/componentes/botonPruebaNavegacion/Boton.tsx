@@ -2,7 +2,7 @@
 import { useRouter, usePathname } from "next/navigation";
 
 
-export const Btn = (props:any) => {
+export const Boton = (props:any) => {
     const { url,nextPage } = props;
     const ruta = url;
     const router = useRouter();

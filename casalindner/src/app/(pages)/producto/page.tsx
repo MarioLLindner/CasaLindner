@@ -1,6 +1,6 @@
 //producto final
 "use client"
-import { Btn } from "../../componentes/botonPruebaNavegacion/button";
+import { Btn } from "../../componentes/botonPruebaNavegacion/Boton";
 import "./Producto.css";
 
 export default function Producto() {

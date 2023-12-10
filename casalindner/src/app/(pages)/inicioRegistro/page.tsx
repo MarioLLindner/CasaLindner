@@ -1,5 +1,5 @@
 "use client"
-import { Btn } from "../../componentes/botonPruebaNavegacion/button";
+import { Btn } from "../../componentes/botonPruebaNavegacion/Boton";
 import "./InicioRegistro.css";
 
 export default function SesionRegistro() {
