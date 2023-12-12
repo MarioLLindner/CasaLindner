@@ -2,7 +2,7 @@
 import React from 'react';
 import './Card.css';
 import { CardRubro } from './CardRubro';
-import { CardProducto } from './CardProducto';
+import { ContCardProducto } from './ContCardProducto';
 import { genoudSillaAna } from '../../../../Public/GenoudSillaAna/GenoudSillaAna.js'
 
 export const Card = () => {
@@ -10,11 +10,11 @@ export const Card = () => {
     <div className='container-Card'>
       <div>
         <p>Card Rubro/Seccion</p>
-        <CardRubro CardImg={genoudSillaAna.GenoudSillaAna01} CardName="Silla Ana" CardRubro="Sillas"/>
+        <CardRubro CardImg={genoudSillaAna.GenoudSillaAna01} CardName="Sillas" CardRubro="Sillas"/>
       </div>
       <div>
         <p>Card Producto</p>
-        <CardProducto />
+        <ContCardProducto />
       </div>
     </div>
   )

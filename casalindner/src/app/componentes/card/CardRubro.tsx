@@ -6,17 +6,17 @@ export function CardRubro ( props: any ) {
     const {
         CardImg,
         CardName,
-        CardRubro
+       /*  CardRubro */
     } = props;
     return (
         <CCard style={{ width: '18rem' }}>
             <CCardImage orientation="top" src={CardImg.src}/>
             <CCardBody>
                 <CCardTitle>{CardName}</CCardTitle>
-                <CCardText>
+                {/* <CCardText>
                     {CardRubro}
-                </CCardText>
-                <CButton href="#">Detalles</CButton>
+                </CCardText> */}
+                <CButton href="#">Ver Mas</CButton>
             </CCardBody>
         </CCard>
     )
