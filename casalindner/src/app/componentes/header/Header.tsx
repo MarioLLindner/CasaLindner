@@ -1,22 +1,42 @@
 'use client'
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import './Header.css'
+import { SelectIdiomaHeader } from './selectIdiomaHeader/SelectIdiomaHeader';
+import { SelectSearchHeader } from './buscador/selectSearch';
+import Logo from '../../../../Public/Carrousel/Logo1.png'
+
 
 export const Header = () => {
+
+
   return (
     <div className='container-Header'>
-      <div>
-      <div className='HeaderNombre'>Nombre o Logo</div>
-      <div className='HeaderIdiomaSelect'>Idioma o Region</div>
+      <div className='HeaderNombreAndIdioma'>
+        <div className='HeaderNombre'>
+          <img className='LogoHeader' src={Logo.src} alt="CasaLindner" />
+        </div>
+        <div>
+          <SelectIdiomaHeader />
+        </div>
       </div>
-      <div>
-        <div className='HeaderSelectorBuscador'>Selector</div>
-        <div className='HeaderImputBuscador'>Buscador</div>
-        <div className='HeaderLupa'>Lupa</div>
+      <div className='Search-Header'>
+        <SelectSearchHeader />
       </div>
-      <div>
-        <div className='HeaderUser'>Usuario</div>
-        <div className='HeaderCarritodeCompras'>Carrito</div>
+      <div className='userRegisterAndCarrito'>
+        <div className='HeaderUser'>
+          <button>
+            Iniciar Sesion
+          </button>
+          <button>
+            Registrarse
+          </button>
+        </div>
+        <div className='HeaderCarritodeCompras'>
+          <a
+            href='PAGE CARRITO'
+            className='btn-carrito'>
+          </a>
+        </div>
       </div>
     </div>
   )

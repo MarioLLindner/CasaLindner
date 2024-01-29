@@ -1,13 +1,12 @@
 "use client"
 import { Boton } from '../../componentes/botonPruebaNavegacion/Boton';
-import { Buscador} from '../../componentes/buscador/Buscador';
 import { Card } from '../../componentes/card/Card';
-import { Carrousel } from '../../componentes/carrousel/Carrousel'
+import  Carrousel  from '../../componentes/carrousel/Carrousel'
 import { Filtro } from '../../componentes/filtros/Filtro';
 import { Footer } from '../../componentes/footer/Footer';
 import { Form } from '../../componentes/form/Form';
 import { Header } from '../../componentes/header/Header';
-import { Navbar } from '../../componentes/navbar/Navbar';
+import  ColorSchemesExample from '../../componentes/navbar/Navbar';
 
 
 
@@ -19,14 +18,13 @@ export default function Home() {
       
       <Header />
       {/* Next Page */}
-      <Boton url={"../rubros"} nextPage="Rubros"/>
-      <Buscador />
-      <Card />
+      {/* <Boton url={"../rubros"} nextPage="Rubros"/> */}
+      <ColorSchemesExample /> {/* Componente NavBar */}
       <Carrousel />
-      <Filtro />
+      {/* <Card /> */}
+     {/*  <Filtro />
       <Footer />
-      <Form />
-      <Navbar />
+      <Form /> */}
     </>
   );
 } 

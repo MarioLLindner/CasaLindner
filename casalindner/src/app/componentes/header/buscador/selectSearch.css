@@ -1,0 +1,44 @@
+.filterSelect {
+  display: flex;
+flex-direction: row;
+  align-items: center;
+}
+
+.HeaderFiltroSelect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100px
+}
+
+.inputHeader {
+  height: 100%;
+}
+
+.btn-lupa {
+    /* Estilos del botón */
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: transparent; /* Color de fondo del botón */
+    border: solid;
+    border-color: black;
+    margin: 5px;
+    border-style:double;
+  
+    /* Propiedad para agregar la imagen como fondo */
+    background-image: url('../../../../../Public/Lupa/lupa.png');
+    background-size: contain; /* Ajusta el tamaño de la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el botón */
+  
+    /* Otros estilos, como bordes, colores, márgenes, etc. */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-lupa:hover {
+    /* Estilos cuando el cursor está sobre el botón */
+    opacity: 0.8; /* Cambia la opacidad del botón al pasar el cursor */
+  }
+  
