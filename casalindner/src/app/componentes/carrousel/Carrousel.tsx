@@ -5,12 +5,12 @@ import { CarrouselItem } from './CarrouselItem';
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-import Bicicletas from '../../../../Public/Carrousel/Bicicletas.png'
-import Colchones from '../../../../Public/Carrousel/Colchones.png'
-import Electro from '../../../../Public/Carrousel/Electro.png'
-import Hogar from '../../../../Public/Carrousel/Hogar.png'
-import Muebles from '../../../../Public/Carrousel/Muebles.png'
-import Pesca from '../../../../Public/Carrousel/Pesca.png'
+import Bicicletas from '../../../../Public/Carrousel/Bicicletas-transformed.png'
+import Colchones from '../../../../Public/Carrousel/Colchones-transformed.png'
+import Electro from '../../../../Public/Carrousel/Electro-transformed.png'
+import Hogar from '../../../../Public/Carrousel/Hogar1.png'
+import Muebles from '../../../../Public/Carrousel/Muebles-transformed.png'
+import Pesca from '../../../../Public/Carrousel/Pesca1.png'
 
 
 import { useState } from 'react';
