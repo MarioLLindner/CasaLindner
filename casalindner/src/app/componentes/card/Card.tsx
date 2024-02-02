@@ -11,11 +11,13 @@ export const Card = () => {
       <div>
         <p>Card Rubro/Seccion</p>
         <CardRubro CardImg={genoudSillaAna.GenoudSillaAna01} CardName="Sillas" CardRubro="Sillas"/>
+        <CardRubro CardImg={genoudSillaAna.GenoudSillaAna01} CardName="Sillas" CardRubro="Sillas"/>
+        <CardRubro CardImg={genoudSillaAna.GenoudSillaAna01} CardName="Sillas" CardRubro="Sillas"/>
       </div>
-      <div>
+      {/* <div>
         <p>Card Producto</p>
         <ContCardProducto />
-      </div>
+      </div> */}
     </div>
   )
 }

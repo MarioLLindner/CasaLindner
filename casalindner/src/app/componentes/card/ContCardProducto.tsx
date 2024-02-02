@@ -16,7 +16,7 @@ export function ContCardProducto ( props: any ) {
     } = props;
     return (
 
-    <div className="container">
+    <div className="containerCard">
       <div className="row">
         <CardProducto
           title={CardName}
@@ -24,7 +24,7 @@ export function ContCardProducto ( props: any ) {
           old_price="9,999"
           newPrice={CardPrecio}
           dollar="$"
-          alt="batman"
+          alt=""
           exp_date="10-08-2022"
         />
       </div>

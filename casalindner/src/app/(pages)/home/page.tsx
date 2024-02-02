@@ -21,7 +21,7 @@ export default function Home() {
       {/* <Boton url={"../rubros"} nextPage="Rubros"/> */}
       <ColorSchemesExample /> {/* Componente NavBar */}
       <Carrousel />
-      {/* <Card /> */}
+      <Card />
      {/*  <Filtro />
       <Footer />
       <Form /> */}

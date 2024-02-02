@@ -1,5 +1,8 @@
 .container-Card{
   background-color: Green;
-  width: 600px;
+  width: 80%;
   height: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
