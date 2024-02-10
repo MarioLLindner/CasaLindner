@@ -3,7 +3,7 @@ import React, { useState, useRef } from 'react'
 import './Header.css'
 import { SelectIdiomaHeader } from './selectIdiomaHeader/SelectIdiomaHeader';
 import { SelectSearchHeader } from './buscador/selectSearch';
-import Logo from '../../../../Public/Carrousel/Logo1.png'
+import Logo from '../../../../Public/Carrousel/Logo.png'
 
 
 export const Header = () => {
@@ -12,9 +12,6 @@ export const Header = () => {
   return (
     <div className='container-Header'>
       <div className='HeaderNombreAndIdioma'>
-        <div className='HeaderNombre'>
-          <img className='LogoHeader' src={Logo.src} alt="CasaLindner" />
-        </div>
         <div>
           <SelectIdiomaHeader />
         </div>
@@ -24,10 +21,10 @@ export const Header = () => {
       </div>
       <div className='userRegisterAndCarrito'>
         <div className='HeaderUser'>
-          <button>
+          <button className='loginRegister'>
             Iniciar Sesion
           </button>
-          <button>
+          <button className='loginRegister'>
             Registrarse
           </button>
         </div>

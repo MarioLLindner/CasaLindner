@@ -9,7 +9,7 @@ export function CardRubro ( props: any ) {
        /*  CardRubro */
     } = props;
     return (
-        <CCard style={{ width: '18rem' }}>
+        <CCard style={{ width: '18rem', margin: '15px' }}>
             <CCardImage orientation="top" src={CardImg.src}/>
             <CCardBody>
                 <CCardTitle>{CardName}</CCardTitle>

@@ -20,12 +20,14 @@ export const SelectIdiomaHeader = ({SelectIdioma}) => {
     {value: 'Paraguay', label: 'Paraguay'},
   ]
   return (
-        <div className='HeaderIdiomaSelect'>
+        <div className='HeaderIdiomaSelect' style={{ display: 'flex', alignItems: 'center'}}>
           <CustomSelect
-          label = "Idioma"
+          className='SelectorPais'
+          label = "País"
           value = {idioma}
           onChange = {handleIdiomaChange}
           options = {options}
+          height = {30}
           />
         </div>
   )

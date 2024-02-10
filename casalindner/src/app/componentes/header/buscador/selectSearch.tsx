@@ -21,16 +21,17 @@ export const SelectSearchHeader = ({ SelectSearch }) => {
   ]
   return (
     <div className='filterSelect'>
-      <div className='HeaderFiltroSelect'>
+      <div className='HeaderFiltroSelect' style={{marginRight:5}}>
         <CustomSelect
           label="Rubro"
           value={filtro}
           onChange={handleFiltroChange}
           options={options}
+          height={30}
         />
       </div>
       <div className='inputHeader'>
-        <input type="text" placeholder="Que Desea Buscar?" />
+        <input className='Buscador' type="text" placeholder="Que Desea Buscar?" />
       </div>
       <button className="btn-lupa" onClick={() => SelectSearch({ filtro })}>
       </button>

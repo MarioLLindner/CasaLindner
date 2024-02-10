@@ -1,31 +1,3 @@
-.container-Header {
-  background-color:rgb(230, 29, 36); /*VA NEGRO*/
-  width: 100%;
-  height: 75px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  }
-
-  .HeaderNombreAndIdioma {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 10px;
-  }
-
-  .HeaderNombre {
-    margin-right: 10px;
-    width: 200px;
-    height: 70px;
-    border-radius: 15px;
-  }
-
-  .LogoHeader {
-    width: 200px;
-    height: 70px;
-    border-radius: 15px;
-  }
 
   .Search-Header {
     display: flex;
@@ -40,17 +12,25 @@
     margin-right: 10px;
   }
 
+.loginRegister {
+ margin: 5px;
+ border-radius: 5px;
+ background-color: rgb(255, 255, 255);
+ color: red;
+}
+
 
   .btn-carrito {
     /* Estilos del botón */
     padding: 10px 20px;
     font-size: 16px;
     border: 1px;
+    margin-left: 10px;
 
     background-color: transparent; /* Color de fondo del botón */
   
     /* Propiedad para agregar la imagen como fondo */
-    background-image: url('../../../../Public/carrito/carrito.png');
+    background-image: url('../../../../Public/carrito/CarritoRojo.png');
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen en el botón */

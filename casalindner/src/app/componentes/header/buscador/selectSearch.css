@@ -8,11 +8,22 @@ flex-direction: row;
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100px
+  width: 100px;
+  background-color: white;
 }
 
 .inputHeader {
   height: 100%;
+}
+
+.Buscador {
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.Buscador::placeholder {
+  color: rgb(0, 0, 0);
 }
 
 .btn-lupa {
@@ -21,12 +32,12 @@ flex-direction: row;
     font-size: 16px;
     background-color: transparent; /* Color de fondo del botón */
     border: solid;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     margin: 5px;
-    border-style:double;
+    border-style:groove;
   
     /* Propiedad para agregar la imagen como fondo */
-    background-image: url('../../../../../Public/Lupa/lupa.png');
+    background-image: url('../../../../../Public/Lupa/Lupa.png');
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen en el botón */
@@ -34,7 +45,7 @@ flex-direction: row;
     /* Otros estilos, como bordes, colores, márgenes, etc. */
     color: white;
     border-radius: 5px;
-    cursor: pointer;
+    cursor:pointer;
   }
   
   .btn-lupa:hover {
