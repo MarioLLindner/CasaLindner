@@ -23,7 +23,7 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel activeIndex={index} onSelect={handleSelect} style={{border: 5, borderColor: "#292020", borderStyle: 'solid',borderWidth: 10}}>
       <Carousel.Item>
       <CarrouselItem
           imgSrc={Bicicletas.src}
