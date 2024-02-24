@@ -28,9 +28,9 @@ function ColorSchemesExample() {
 
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <Nav className="me-auto" >
-              <Nav.Link href="#Ofertas">Iniciar Sesion</Nav.Link>
-              <Nav.Link href="#Comprar de Nuevo">Registrarse</Nav.Link>
-              <Nav.Link href="#Servicio al Cliente">Mis Compras</Nav.Link>
+              <Nav.Link href="inicioSesion">Iniciar Sesion</Nav.Link>
+              <Nav.Link href="registro">Registrarse</Nav.Link>
+              <Nav.Link href="carritoDeCompras">Mis Compras</Nav.Link>
             </Nav>
           </div>
         </Container>

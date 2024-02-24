@@ -1,5 +1,12 @@
-.container-Form{
-  background-color:aquamarine;
-  width: 600px;
-  height: 200px;
+.contenedorInicioSesion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+form {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }

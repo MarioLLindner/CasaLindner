@@ -1,3 +1,13 @@
 body {
-    background-color:azure;
+    background-color: #292020;
+    background-image: linear-gradient(180deg, #1F1F1F 0%, #1F1F1F 35%, #1F1F1F 66%, #ffffff 100%);
+}
+
+.inicioSesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 500px;
+    min-height: 300px;
+    margin: 10px;
 }

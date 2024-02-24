@@ -1,11 +1,13 @@
 "use client"
-import { Boton } from "../../componentes/botonPruebaNavegacion/Boton";
-import "./Inicio.css";
+import FormSesion from "../../componentes/form/Form";
+import './InicioSesion.css';
 
-export default function SesionRegistro() {
-  return (
-    <>   
-    <Boton url={"../home"} nextPage="Volver al Inicio"/>  
-    </>
-  );
-} 
+export default function InicioSesion() {
+    return (
+        <>
+            <div className="inicioSesion">
+                <FormSesion />
+            </div>
+        </>
+    )
+}
