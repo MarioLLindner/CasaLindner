@@ -9,10 +9,11 @@ export const CustomSelect = (props: any) => {
         onChange,
         options = [],
         height,
+        letra
     } = props;
 
   return (
-    <FormControl fullWidth style={{ height: height }}>
+    <>{/* <FormControl fullWidth style={{ height: height }}>
       <InputLabel style={{height:height}}>{label}</InputLabel>
       <Select value={value} onChange={onChange} >
         {options.map((option, index) => (
@@ -21,7 +22,13 @@ export const CustomSelect = (props: any) => {
           </MenuItem>
         ))}
       </Select>
-    </FormControl>
+    </FormControl> */}
+    <select name={label} id="select" onChange={onChange} value={value} style={{height:height, width: "auto",backgroundColor:"white", color:"black"}}>
+      {options.map((option, index) => (
+      <option key={index} value={option.value} style={{fontSize: letra}}>{option.label}</option>
+      ))}
+    </select>
+    </>
   );
 };
 

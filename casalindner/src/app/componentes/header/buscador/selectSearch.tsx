@@ -13,6 +13,7 @@ export const SelectSearchHeader = ({ SelectSearch }) => {
   };
 
   const options = [
+    { value: 'Rubro', label: 'Rubro'},
     { value: 'Muebles', label: 'Muebles' },
     { value: 'MesasySillas', label: 'Mesas y Sillas' },
     { value: 'Jardin', label: 'Jardin' },
@@ -21,13 +22,14 @@ export const SelectSearchHeader = ({ SelectSearch }) => {
   ]
   return (
     <div className='filterSelect'>
-      <div className='HeaderFiltroSelect' style={{marginRight:5}}>
+      <div className='HeaderFiltroSelect' style={{marginRight:40,backgroundColor:"#0D6EFD"}}>
         <CustomSelect
           label="Rubro"
           value={filtro}
           onChange={handleFiltroChange}
           options={options}
           height={30}
+          letra= {14}
         />
       </div>
       <div className='inputHeader'>
