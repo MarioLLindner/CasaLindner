@@ -1,0 +1,8 @@
+.HeaderIdiomaSelect {
+  display: flex;
+  flex-direction: row;
+  width: 120px;
+  margin-left: 20px;
+  background-color: white;
+}
+  

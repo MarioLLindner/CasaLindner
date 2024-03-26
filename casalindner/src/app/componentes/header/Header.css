@@ -1,0 +1,49 @@
+
+  .Search-Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .userRegisterAndCarrito {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+.loginRegister {
+ margin: 5px;
+ border-radius: 5px;
+ background-color: rgb(255, 255, 255);
+ color: red;
+}
+
+
+  .btn-carrito {
+    /* Estilos del botón */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px;
+    margin-left: 10px;
+
+    background-color: transparent; /* Color de fondo del botón */
+  
+    /* Propiedad para agregar la imagen como fondo */
+    background-image: url('../../../../Public/carrito/CarritoRojo.png');
+    background-size: contain; /* Ajusta el tamaño de la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el botón */
+  
+    /* Otros estilos, como bordes, colores, márgenes, etc. */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-carrito:hover {
+    /* Estilos cuando el cursor está sobre el botón */
+    opacity: 0.8; /* Cambia la opacidad del botón al pasar el cursor */
+  }
+  

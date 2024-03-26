@@ -1,5 +1,5 @@
 "use client"
-import { Btn } from "../../componentes/botonPruebaNavegacion/button";
+import { Btn } from "../../componentes/botonPruebaNavegacion/Boton";
 import "./Envio.css";
 
 export default function Envio() {
