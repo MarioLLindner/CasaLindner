@@ -18,7 +18,7 @@ import { useState } from 'react';
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex) => {
+  const handleSelect = (selectedIndex:any) => {
     setIndex(selectedIndex);
   };
 
